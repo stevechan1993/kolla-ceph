@@ -31,6 +31,8 @@ push_threads = 4
 maintainer = Kolla Ceph Project
 ceph_version = nautilus
 ceph_release = 14.2.2
+# 添加 regex 选项
+regex = ^[a-zA-Z0-9]+$
 
 [profiles]
 image_ceph = fluentd,cron,kolla-toolbox,ceph
